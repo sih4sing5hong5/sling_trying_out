@@ -12,4 +12,4 @@ WORKDIR /usr/local/sling
 RUN wget http://www.jbox.dk/sling/sempar.flow
 
 COPY trying_out.py trying_out.py
-RUN python trying_out.py
+RUN echo SLING is a parser for annotating text with frame semantic annotations. | python trying_out.py
